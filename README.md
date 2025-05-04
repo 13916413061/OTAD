@@ -46,11 +46,15 @@ project/
 
 
 ## 快速上手-Quick Start
-·将github项目完整拷贝到本地（注意：如果要手动下载数据库，本项目仅使用MVTec-AD目录下的子目录cable/用作训练，各位也可以尝试使用别的子目录进行鲁棒性测试）。
+将github项目完整拷贝到本地（注意：如果要手动下载数据库，本项目仅使用MVTec-AD目录下的子目录cable/用作训练，各位也可以尝试使用别的子目录进行鲁棒性测试）。
 
-·安装依赖`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
-·在`config.py`中可设置训练不同神经网络的参数，切换训练数据库功能需调整`ENVIRONMENT`参数，详见当行注释。在`main.py`中运行进行训练。
+安装依赖`pip install -r requirements.txt`
+
+在`config.py`中可设置训练不同神经网络的参数，切换训练数据库功能需调整`ENVIRONMENT`参数，详见当行注释。在`main.py`中运行进行训练。
 
 ·若运行效率过低或训练负载过高，可调整部分参数以正常运行。
 
