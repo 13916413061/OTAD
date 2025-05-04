@@ -52,7 +52,11 @@ project/
 pip install -r requirements.txt
 ```
 
-安装依赖`pip install -r requirements.txt`
+安装依赖
+
+```bash
+pip install -r requirements.txt
+```
 
 在`config.py`中可设置训练不同神经网络的参数，切换训练数据库功能需调整`ENVIRONMENT`参数，详见当行注释。在`main.py`中运行进行训练。
 
