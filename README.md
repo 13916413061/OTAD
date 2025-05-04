@@ -110,7 +110,6 @@ MVTec Anomaly Detection (MVTec AD) 数据集是一个用于无监督异常检测
 数据集链接：https://www.mvtec.com/company/research/datasets/mvtec-ad
 
 ## 注：
-# OTAD：基于最优传输的深度异常检测方法
 
 本项目为本科毕业论文《基于最优传输的深度异常检测方法》的配套实现，包含论文中提出的模型结构、最优传输异常度量方法以及全部实验流程。
 
