@@ -49,7 +49,8 @@ project/
 将github项目完整拷贝到本地（注意：如果要手动下载数据库，本项目仅使用MVTec-AD目录下的子目录cable/用作训练，各位也可以尝试使用别的子目录进行鲁棒性测试）。
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/StealthyMurloc/OTAD.git
+cd OTAD
 ```
 
 安装依赖
