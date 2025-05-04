@@ -1,0 +1,2 @@
+# OTAD
+基于潜在空间Wasserstein距离的深度异常检测方法，结合Sinkhorn近似算法提升鲁棒性与判别力
