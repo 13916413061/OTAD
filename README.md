@@ -73,13 +73,13 @@ pip install -r requirements.txt
 
 本项目中使用的所有数据集均来自公开平台，仅用于学术研究目的。若有任何版权争议，请联系修改或删除。（联系方式：`m13916413061@163.com`）
 
-## 参考文献与数据库
+## 数据库来源与致谢
 ### ECG5000 数据集
 ECG5000 数据集源自PhysioNet的BIDMC Congestive Heart Failure Database（记录编号：chf07）。该数据库包含来自15位患有严重充血性心力衰竭患者的长时间心电图记录。
 
 引用文献：Goldberger, A. L., Amaral, L. A. N., Glass, L., Hausdorff, J. M., Ivanov, P. C., Mark, R. G., Mietus, J. E., Moody, G. B., Peng, C.-K., & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. Circulation, 101(23), e215–e220.
 
-数据集链接：PhysioNet: https://physionet.org/content/chfdb/1.0.0/
+数据集链接：https://physionet.org/content/chfdb/1.0.0/
 
 ### Thyroid Disease 数据集
 Thyroid Disease数据集由Ross Quinlan提供，包含多个与甲状腺疾病相关的数据库，广泛用于机器学习研究。
@@ -88,7 +88,7 @@ Thyroid Disease数据集由Ross Quinlan提供，包含多个与甲状腺疾病�
 
 许可协议：该数据集遵循 Creative Commons Attribution 4.0 International (CC BY 4.0) 许可协议。
 
-数据集链接：UCI Repository: https://archive.ics.uci.edu/ml/datasets/thyroid+disease
+数据集链接：https://archive.ics.uci.edu/ml/datasets/thyroid+disease
 
 ### CIFAR-10 数据集
 CIFAR-10数据集由Alex Krizhevsky、Vinod Nair和Geoffrey Hinton创建，包含10个类别的60,000张32x32彩色图像，是计算机视觉领域的标准数据集。
@@ -96,3 +96,12 @@ CIFAR-10数据集由Alex Krizhevsky、Vinod Nair和Geoffrey Hinton创建，包�
 引用文献：Krizhevsky, A. (2009). Learning Multiple Layers of Features from Tiny Images. Technical Report, University of Toronto.
 
 数据集链接：https://www.cs.toronto.edu/~kriz/cifar.html
+
+### MVTec AD 数据集
+MVTec Anomaly Detection (MVTec AD) 数据集是一个用于无监督异常检测的真实世界工业图像数据集，包含5,354张高分辨率彩色图像，涵盖15个不同的对象和纹理类别。每个类别包括无缺陷的训练图像和包含各种缺陷的测试图像，缺陷类型包括划痕、凹痕、污染和结构变化等，共计73种不同类型的缺陷。此外，数据集还提供了所有异常的像素级精确标注。
+
+引用文献：Paul Bergmann, Kilian Batzner, Michael Fauser, David Sattlegger, Carsten Steger. "The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection." International Journal of Computer Vision, 129(4):1038–1059, 2021. DOI: 10.1007/s11263-020-01400-4
+
+许可协议：该数据集遵循Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)。特别地，禁止将该数据集用于商业目的。如您不确定您的应用是否违反了该许可协议的非商业使用条款，请联系MVTec。
+
+数据集链接：https://www.mvtec.com/company/research/datasets/mvtec-ad
