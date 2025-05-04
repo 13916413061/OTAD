@@ -108,3 +108,19 @@ MVTec Anomaly Detection (MVTec AD) 数据集是一个用于无监督异常检测
 许可协议：该数据集遵循Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)。特别地，禁止将该数据集用于商业目的。如您不确定您的应用是否违反了该许可协议的非商业使用条款，请联系MVTec。
 
 数据集链接：https://www.mvtec.com/company/research/datasets/mvtec-ad
+
+## 注：
+# OTAD：基于最优传输的深度异常检测方法
+
+本项目为本科毕业论文《基于最优传输的深度异常检测方法》的配套实现，包含论文中提出的模型结构、最优传输异常度量方法以及全部实验流程。
+
+- 作者：王嘉骆  
+- 所在院系：华东理工大学 数学学院 信息与计算科学系  
+- 指导教师：黄文亮
+- 提交时间：2025年5月  
+
+本项目对应论文正文第4、5章，核心贡献在于构建潜在空间中基于熵正则Wasserstein距离的异常检测机制，并在多种数据集上验证其性能与鲁棒性。
+
+📌 对应代码版本哈希：[`3ac17f18`](https://github.com/StealthyMurloc/OTAD/commit/3ac17f18dffcb66e8adfd8a302438e4eb31dc028)
+
+> 本项目为本人在本科阶段独立完成，保留署名权利。
