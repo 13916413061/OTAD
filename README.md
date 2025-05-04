@@ -5,7 +5,7 @@
 
 ```
 project/
-    ├── data/                           # 数据集
+    ├── data/                           # 数据集（需自行下载）
     │     ├── cable/
     │     ├── cifar-10/
     │     ├── ECG5000/
