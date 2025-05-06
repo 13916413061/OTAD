@@ -64,16 +64,15 @@ pip install -r requirements.txt
 
 在`config.py`中可设置训练不同神经网络的参数，切换训练数据库功能需调整`ENVIRONMENT`参数，详见当行注释。在`main.py`中运行进行训练。
 
-·若运行效率过低或训练负载过高，可调整部分参数以正常运行。
-
-
 训练结束后，会得到由四张表格构成的图，分别展示`Training Dynamics`、`ROC(AUC)`、`Reconstruction Error`、`Latent t-SNE`，如图例所示。
 
 ![img.png](img.png)
 
 ## 注意事项
 
-项目中`backup`目录下的cnn代码用于训练`cifar10`图像（32*32大小）；`models`目录下的cnn代码用于训练`MVTec-AD`图像（256*256大小）。请注意替换。
+项目中`backup`目录下的cnn代码用于训练`cifar10`图像（32 32大小）；`models`目录下的cnn代码用于训练`MVTec-AD`图像（256 256大小）。请注意替换避免无效训练。
+
+若运行效率过低或训练负载过高，可合理调整参数以正常运行。
 
 ## 数据库来源与致谢
 ### ECG5000 数据集
